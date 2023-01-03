@@ -1,0 +1,16 @@
+{
+  "name": "custom-dns-server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Custom DNS-Over-HTTPS Server",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "dns-packet": "^5.4.0",
+    "express": "^4.18.2"
+  }
+}
